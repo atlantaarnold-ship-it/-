@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>คู่มือวิธีง้อแฟน 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true">
+    <span class="heart heart-1">💗</span>
+    <span class="heart heart-2">💜</span>
+    <span class="heart heart-3">💕</span>
+    <span class="heart heart-4">💗</span>
+    <span class="heart heart-5">💜</span>
+  </div>
+
+  <div id="transition-overlay" class="transition-overlay" aria-hidden="true">
+    <span class="transition-circle"></span>
+  </div>
+
+  <div class="page-shell">
+    <main>
+      <section id="home-view" class="view home-view">
+        <div class="hero-panel">
+          <div class="hero-copy">
+            <p class="hero-lead">คู่มือวิธีง้อแฟน 💗</p>
+            <h1>ทะเลาะกันอยู่เหรอ?</h1>
+            <p class="hero-subtitle">ไม่ต้องห่วง เดี๋ยวเราช่วยคิดวิธีง้อให้เอง 💗</p>
+            <p class="hero-note">เลือกสถานการณ์ของคุณ แล้วไปง้อแฟนกัน</p>
+          </div>
+
+          <div class="cards-grid">
+            <button class="option-card" data-category="honest" type="button">
+              <span class="option-icon">💌</span>
+              <div>
+                <h2>ง้อแบบจริงใจ</h2>
+                <p>สำหรับคนที่อยากขอโทษจากใจ</p>
+              </div>
+            </button>
+            <button class="option-card" data-category="cute" type="button">
+              <span class="option-icon">🌷</span>
+              <div>
+                <h2>ง้อแบบน่ารัก</h2>
+                <p>สำหรับคนที่อยากละลายความโกรธ</p>
+              </div>
+            </button>
+            <button class="option-card" data-category="deep" type="button">
+              <span class="option-icon">🫶</span>
+              <div>
+                <h2>ง้อหลังทะเลาะหนัก</h2>
+                <p>สำหรับสถานการณ์ที่อีกฝ่ายยังไม่หายโกรธ</p>
+              </div>
+            </button>
+            <button class="option-card" data-category="deluxe" type="button">
+              <span class="option-icon">🎁</span>
+              <div>
+                <h2>ง้อแบบจัดเต็ม</h2>
+                <p>สำหรับคนที่อยากทำทุกอย่างให้เขากลับมายิ้ม</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="detail-view" class="view detail-view hidden">
+        <div class="page-title">
+          <span id="category-label" class="pill">วิธีง้อแบบจริงใจ 💌</span>
+          <h1 id="category-title">บางครั้งคำขอโทษที่จริงใจ อาจมีค่ามากกว่าของแพงๆ</h1>
+          <p id="category-description">เลือกคำแนะนำทีละข้อ แล้วเลื่อนดูวิธีง้ออย่างนุ่มนวล</p>
+        </div>
+
+        <div class="slide-section" id="slide-section">
+          <div class="slide-wrapper" id="slide-wrapper"></div>
+        </div>
+
+        <div class="navigation-bar">
+          <button id="prev-btn" class="nav-button" type="button">← ก่อนหน้า</button>
+          <div class="progress" id="progress-label">1 / 4</div>
+          <button id="next-btn" class="nav-button" type="button">ถัดไป →</button>
+        </div>
+      </section>
+
+      <section id="summary-view" class="view summary-view hidden">
+        <div class="summary-card">
+          <p class="summary-emoji">❤️</p>
+          <h1>หวังว่าเขาจะกลับมายิ้มให้มึงนะ ❤️</h1>
+          <p>จำไว้นะ การง้อที่ดีที่สุดไม่ใช่การพูดให้เก่งที่สุด แต่คือการทำให้อีกคนรู้ว่าเรายังแคร์เขา</p>
+          <button id="home-btn" class="primary-button" type="button">🏠 กลับหน้าหลัก</button>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
